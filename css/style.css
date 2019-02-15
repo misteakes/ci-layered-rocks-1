@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  background-color: black
+}
+
+.paper {
+	background: #f5efc5;
+	width: 140px;
+	height: 175px;
+	border-radius: 10px;
+	position: absolute;
+ 	top: 20%;
+ 	left: 44.5%;
+
+	animation-name: sending;
+ 	animation-duration: 3s;
+}
+
+.envelope {
+	background: #f283a3;
+ 	width: 154px;
+ 	height: 100px;
+ 	border-radius: 20px;
+ 	position: absolute;
+ 	top: 60%;
+ 	left: 44%;
+}
+
+@keyframes sending {
+  0% {
+    margin-top: 10%;
+  }
+
+  100% {
+    margin-top: 20%;
+  }
+}
